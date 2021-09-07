@@ -15,7 +15,7 @@ def project_pods
     pod 'SCLAlertView', :git => 'https://github.com/soulfoodz/SCLAlertView-Swift.git'
     pod 'SwiftyStoreKit'
     pod 'QRCodeReader.swift', '~> 10.1.0'
-    pod 'ox-push3', :git => 'https://github.com/LabShare/oxPush-iOS'
+    pod 'ox-push3', :git => 'https://github.com/GluuFederation/oxPush-iOS.git'
 end
 
 target 'AZPass' do
