@@ -8,11 +8,11 @@
 import GoogleMobileAds
 import UIKit
 
-class SuperGluuBannerView: UIView, GADInterstitialDelegate {
+class SuperGluuBannerView: UIView, GADFullScreenContentDelegate  {
     
     
     private var bannerView: GADBannerView?
-    var interstitial: GADInterstitial?
+    var interstitial: GADInterstitialAd?
 
     // add bannerview in Storyboard and use this to display banner ad
     func loadBannerAd() {
@@ -51,7 +51,7 @@ class SuperGluuBannerView: UIView, GADInterstitialDelegate {
 
                 let screenWidth: CGFloat = UIScreen.main.bounds.size.width
                 let screenHeight: CGFloat? = rootVC?.view.bounds.size.height
-				
+                
                 let adCenterX: CGFloat = screenWidth / 2
                 let adCenterY: CGFloat = (screenHeight ?? 0.0) / 2 //- (adHeight / 2);
 
@@ -74,29 +74,49 @@ class SuperGluuBannerView: UIView, GADInterstitialDelegate {
     }
 
     func createAndLoadInterstitial() {
-        interstitial = nil
-        interstitial?.delegate = nil
-        let newInterstitial = GADInterstitial(adUnitID: GluuConstants.AD_UNIT_ID_INTERSTITIAL)
         let request = GADRequest()
-        request.testDevices = [kGADSimulatorID]
-        newInterstitial.load(request)
-        interstitial = newInterstitial
-        interstitial?.delegate = self
+        GADInterstitialAd.load(withAdUnitID:"ca-app-pub-3940256099942544/4411468910",
+                               request: request,
+                               completionHandler: { [self] ad, error in
+                                if let error = error {
+                                    print("Failed to load interstitial ad with error: \(error.localizedDescription)")
+                                    return
+                                }
+                                interstitial = ad
+                                interstitial?.fullScreenContentDelegate = self
+                               }
+        )
+    }
+    
+    /// Tells the delegate that the ad failed to present full screen content.
+    func ad(_ ad: GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: Error) {
+        print("Ad did fail to present full screen content.")
+    }
+    
+    /// Tells the delegate that the ad presented full screen content.
+    func adDidPresentFullScreenContent(_ ad: GADFullScreenPresentingAd) {
+        print("Ad did present full screen content.")
+    }
+    
+    /// Tells the delegate that the ad dismissed full screen content.
+    func adDidDismissFullScreenContent(_ ad: GADFullScreenPresentingAd) {
+        createAndLoadInterstitial()
+        print("Ad did dismiss full screen content.")
     }
 
     func showInterstitial(_ rootView: UIViewController?) {
 
-        let shared = AdHandler.shared
+        _ = AdHandler.shared
         if AdHandler.shared.shouldShowAds == false {
             return
         }
 
-        guard let interstitial = self.interstitial, let root = rootView else {
+        guard let root = rootView else {
             return
         }
         
-        if interstitial.isReady {
-            interstitial.present(fromRootViewController: root)
+        if interstitial != nil {
+            interstitial!.present(fromRootViewController: root)
         } else {
             rootView?.delay(delay: 1.0, closure: {
                 self.showInterstitial(rootView)
@@ -112,9 +132,5 @@ class SuperGluuBannerView: UIView, GADInterstitialDelegate {
     func closeAD() {
         bannerView?.isHidden = true
         removeFromSuperview()
-    }
-
-    func interstitialDidDismissScreen(_ interstitial: GADInterstitial?) {
-        createAndLoadInterstitial()
     }
 }

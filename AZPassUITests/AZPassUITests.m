@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface super_gluuUITests : XCTestCase
+@interface AZPassUITests : XCTestCase
 
 @end
 
-@implementation super_gluuUITests
+@implementation AZPassUITests
 
 - (void)setUp {
     [super setUp];

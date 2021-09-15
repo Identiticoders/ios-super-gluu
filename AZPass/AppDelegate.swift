@@ -41,8 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         setupAppearance()
 
-		GADMobileAds.configure(withApplicationID: GluuConstants.GOOGLE_AD_ID)
-
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
         setupSwiftyStoreKit()
      
         setupRootViewController()
@@ -201,14 +200,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		
 		guard let currentVersion = Int(noDotsVersion) else { return }
 
-		let badVersion = Int(3405)
+		let badVersion = Int(99) // Output: 99
 		
-		if badVersion > currentVersion {
+		if badVersion > currentVersion { // 99 > 100 (1.0.0)
 
 			let alert = SCLAlertView(showCloseButton: true, horizontalButtons: false)
 		   
-		   alert.showCustom("Please update Super Gluu",
-							subTitle: "There is a new version of Super Gluu available for download. Please update to prevent any issues.",
+		   alert.showCustom("Please update AZPass",
+							subTitle: "There is a new version of AZPass available for download. Please update to prevent any issues.",
 							color: AppConfiguration.systemColor,
 							closeButtonTitle: LocalString.Ok.localized,
 							circleIconImage: AppConfiguration.systemAlertIcon,

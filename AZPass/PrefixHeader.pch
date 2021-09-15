@@ -10,6 +10,6 @@
 #define PrefixHeader_pch
 
 #import "Constants.h"
-#import "Super_Gluu-Swift.h"
+#import "AZPass-Swift.h"
 
 #endif /* PrefixHeader_pch */

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dd1-BE-cwL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dd1-BE-cwL">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,7 +11,7 @@
         <!--Landing View Controller-->
         <scene sceneID="6Z9-fZ-JkB">
             <objects>
-                <viewController storyboardIdentifier="LandingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="T7G-r3-qKs" customClass="LandingViewController" customModule="Super_Gluu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LandingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="T7G-r3-qKs" customClass="LandingViewController" customModule="AZPass" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4H3-EB-lNL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,7 +41,7 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6l-wd-UYA">
                                                 <rect key="frame" x="0.0" y="64" width="295" height="81.5"/>
-                                                <string key="text">Super Gluu is locked due to incorrect passcode entry. You will be able to reenter the correct passcode to gain entry after 10 minutes.</string>
+                                                <string key="text">AZPass is locked due to incorrect passcode entry. You will be able to reenter the correct passcode to gain entry after 10 minutes.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -77,6 +77,7 @@
                                 <rect key="frame" x="0.0" y="333.5" width="375" height="333.5"/>
                             </containerView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="TpC-kk-Lho"/>
                         <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="BzU-82-37p" firstAttribute="leading" secondItem="TpC-kk-Lho" secondAttribute="leading" id="0tJ-wj-bJD"/>
@@ -92,7 +93,6 @@
                             <constraint firstItem="cYk-gW-hlg" firstAttribute="top" secondItem="TpC-kk-Lho" secondAttribute="top" id="jGP-JL-UfY"/>
                             <constraint firstItem="nyN-LY-Uv7" firstAttribute="top" secondItem="cYk-gW-hlg" secondAttribute="bottom" id="q24-2o-qX4"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="TpC-kk-Lho"/>
                     </view>
                     <navigationItem key="navigationItem" id="z3z-je-fEZ"/>
                     <connections>
@@ -125,7 +125,7 @@
         <!--Launch Setup View Controller-->
         <scene sceneID="7jM-hg-EMA">
             <objects>
-                <viewController storyboardIdentifier="LaunchSetupViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BNr-At-y8D" customClass="LaunchSetupViewController" customModule="Super_Gluu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LaunchSetupViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BNr-At-y8D" customClass="LaunchSetupViewController" customModule="AZPass" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4Sl-ph-gQu"/>
                         <viewControllerLayoutGuide type="bottom" id="zcw-10-p3D"/>
@@ -134,7 +134,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="350"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LyT-4V-bTN">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LyT-4V-bTN">
                                 <rect key="frame" x="47" y="160" width="281" height="38"/>
                                 <color key="backgroundColor" red="0.0" green="0.63607400660000002" blue="0.37179875369999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -147,7 +147,7 @@
                                     <action selector="enterPasscodeTapped" destination="BNr-At-y8D" eventType="touchUpInside" id="7JQ-yd-N4A"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3b-mF-NOc">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3b-mF-NOc">
                                 <rect key="frame" x="47" y="288" width="281" height="38"/>
                                 <state key="normal" title="Forgot Passcode">
                                     <color key="titleColor" red="0.0" green="0.63607400660000002" blue="0.37179875369999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -170,6 +170,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZVT-r3-WX8"/>
                         <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="x3b-mF-NOc" firstAttribute="width" secondItem="LyT-4V-bTN" secondAttribute="width" id="CIe-sp-E3c"/>
@@ -182,7 +183,6 @@
                             <constraint firstItem="LyT-4V-bTN" firstAttribute="width" secondItem="ekU-1b-s9j" secondAttribute="width" multiplier="3:4" id="vkX-VZ-O8x"/>
                             <constraint firstItem="zcw-10-p3D" firstAttribute="top" secondItem="x3b-mF-NOc" secondAttribute="bottom" constant="24" id="wjz-jV-Bcg"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ZVT-r3-WX8"/>
                     </view>
                     <navigationItem key="navigationItem" id="hb3-Nm-5I8"/>
                     <size key="freeformSize" width="375" height="350"/>
@@ -201,7 +201,7 @@
         <!--Security Prompt View Controller-->
         <scene sceneID="CGe-NH-M6X">
             <objects>
-                <viewController storyboardIdentifier="SecurityPromptViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="h9T-6e-ePE" customClass="SecurityPromptViewController" customModule="Super_Gluu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecurityPromptViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="h9T-6e-ePE" customClass="SecurityPromptViewController" customModule="AZPass" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i4D-Rs-yzx"/>
                         <viewControllerLayoutGuide type="bottom" id="2VN-PM-7xO"/>
@@ -224,7 +224,7 @@
                                                 <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Security_Touch_Id" image="icon_settings_touchid">
-                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="titleColor" systemColor="darkTextColor"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="bioTapped" destination="h9T-6e-ePE" eventType="touchUpInside" id="6If-uY-TOX"/>
@@ -245,7 +245,7 @@
                                                 <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Security_Passcode" image="icon_settings_pin">
-                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="titleColor" systemColor="darkTextColor"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="pinTapped" destination="h9T-6e-ePE" eventType="touchUpInside" id="EIe-Jw-cfz"/>
@@ -266,21 +266,23 @@
                                     <constraint firstItem="fXS-GM-YW9" firstAttribute="leading" secondItem="j8O-g5-19X" secondAttribute="leading" id="sfh-H8-yZv"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add_Secure_Entry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TI7-Rp-hxY" customClass="LocalizedLabel" customModule="Super_Gluu" customModuleProvider="target">
-                                <rect key="frame" x="16" y="44" width="343" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add_Secure_Entry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TI7-Rp-hxY" customClass="LocalizedLabel" customModule="AZPass" customModuleProvider="target">
+                                <rect key="frame" x="16" y="44.5" width="343" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="j0W-Sh-53o"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="j8O-g5-19X" secondAttribute="trailing" id="0SC-l7-rfa"/>
+                            <constraint firstItem="TI7-Rp-hxY" firstAttribute="leading" secondItem="j0W-Sh-53o" secondAttribute="leading" constant="16" id="8cF-tM-zVH"/>
                             <constraint firstItem="j8O-g5-19X" firstAttribute="leading" secondItem="qhx-9c-FjM" secondAttribute="leading" id="Tb3-JQ-UOj"/>
                             <constraint firstItem="j8O-g5-19X" firstAttribute="centerY" secondItem="j0W-Sh-53o" secondAttribute="centerY" id="WyI-q1-FG8"/>
+                            <constraint firstItem="j8O-g5-19X" firstAttribute="top" secondItem="TI7-Rp-hxY" secondAttribute="bottom" constant="36.5" id="ZgM-hS-wDa"/>
+                            <constraint firstItem="j0W-Sh-53o" firstAttribute="trailing" secondItem="TI7-Rp-hxY" secondAttribute="trailing" constant="16" id="drX-aN-Ncr"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="j0W-Sh-53o"/>
                     </view>
                     <navigationItem key="navigationItem" id="JXu-kj-bFC"/>
                     <size key="freeformSize" width="375" height="300"/>
@@ -304,5 +306,8 @@
         <image name="icon_lock" width="37" height="50"/>
         <image name="icon_settings_pin" width="29" height="30"/>
         <image name="icon_settings_touchid" width="29" height="30"/>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

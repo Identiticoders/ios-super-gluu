@@ -24,13 +24,11 @@
 		26F43EFB22DE4355003168AC /* LocalizedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F43EFA22DE4355003168AC /* LocalizedLabel.swift */; };
 		3042379924CAF1FA009CCD9C /* UIViewConroller+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3042379824CAF1FA009CCD9C /* UIViewConroller+Alert.swift */; };
 		3042379B24CAF427009CCD9C /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3042379A24CAF427009CCD9C /* Typealias.swift */; };
-		6A858E7909FD7D0E999EE1BC /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		B15338FF2BF5A9564E88CA07 /* Pods_Super_Gluu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475C93050CA6D13747A471A2 /* Pods_Super_Gluu.framework */; };
 		BB13D8121EE8413A00F3C41F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB13D8111EE8413A00F3C41F /* String+Extension.swift */; };
 		BB37DE561C7E08320016D422 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB37DE551C7E08320016D422 /* main.m */; };
 		BB37DE641C7E08320016D422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB37DE631C7E08320016D422 /* Assets.xcassets */; };
-		BB37DE721C7E08320016D422 /* super_gluuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB37DE711C7E08320016D422 /* super_gluuTests.m */; };
-		BB37DE7D1C7E08320016D422 /* super_gluuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB37DE7C1C7E08320016D422 /* super_gluuUITests.m */; };
+		BB37DE721C7E08320016D422 /* AZPassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB37DE711C7E08320016D422 /* AZPassTests.m */; };
+		BB37DE7D1C7E08320016D422 /* AZPassUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB37DE7C1C7E08320016D422 /* AZPassUITests.m */; };
 		BB37DF241C7E0B8E0016D422 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB37DEDB1C7E0B8E0016D422 /* Localizable.strings */; };
 		BB37DF421C7E0CBC0016D422 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB37DF411C7E0CBC0016D422 /* CoreData.framework */; };
 		BB50AE1C1E5F0978003AEC78 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB50AE1B1E5F0978003AEC78 /* LocalAuthentication.framework */; };
@@ -93,6 +91,7 @@
 		C8B402B61FE9F28C00202A4B /* LaunchSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B402B51FE9F28C00202A4B /* LaunchSetupViewController.swift */; };
 		C8F0E2DC1FD21C3800FF9342 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F0E2DB1FD21C3800FF9342 /* Color+Extension.swift */; };
 		C8F0E2E21FD227CE00FF9342 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F0E2E11FD227CE00FF9342 /* SettingsViewController.swift */; };
+		FFA10FA593271404A0E363F3 /* Pods_AZPass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790A6FAD1F5C9DEA2727CC60 /* Pods_AZPass.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,34 +100,34 @@
 			containerPortal = BB37DE491C7E08320016D422 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BB37DE501C7E08320016D422;
-			remoteInfo = "super-gluu";
+			remoteInfo = "AZPass";
 		};
 		BB37DE791C7E08320016D422 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BB37DE491C7E08320016D422 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BB37DE501C7E08320016D422;
-			remoteInfo = "super-gluu";
+			remoteInfo = "AZPass";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A8A121C9E5138FA061E2EE /* Pods-Super Gluu.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Super Gluu.testing.xcconfig"; path = "Pods/Target Support Files/Pods-Super Gluu/Pods-Super Gluu.testing.xcconfig"; sourceTree = "<group>"; };
-		0B55BCA65943206E2613A68D /* Pods-Super Gluu - Ad Free.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Super Gluu - Ad Free.testing.xcconfig"; path = "Pods/Target Support Files/Pods-Super Gluu - Ad Free/Pods-Super Gluu - Ad Free.testing.xcconfig"; sourceTree = "<group>"; };
-		21C62C7E2E6093747FE1D418 /* Pods-Super Gluu (ad free).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Super Gluu (ad free).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Super Gluu (ad free)/Pods-Super Gluu (ad free).debug.xcconfig"; sourceTree = "<group>"; };
-		244ED1E8112E194E698C753B /* Pods-Super Gluu - Ad Free.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Super Gluu - Ad Free.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Super Gluu - Ad Free/Pods-Super Gluu - Ad Free.debug.xcconfig"; sourceTree = "<group>"; };
+		00A8A121C9E5138FA061E2EE /* Pods-AZPass.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZPass.testing.xcconfig"; path = "Pods/Target Support Files/Pods-AZPass/Pods-AZPass.testing.xcconfig"; sourceTree = "<group>"; };
+		0B55BCA65943206E2613A68D /* Pods-AZPass - Ad Free.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZPass - Ad Free.testing.xcconfig"; path = "Pods/Target Support Files/Pods-AZPass - Ad Free/Pods-AZPass - Ad Free.testing.xcconfig"; sourceTree = "<group>"; };
+		21C62C7E2E6093747FE1D418 /* Pods-AZPass (ad free).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZPass (ad free).debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZPass (ad free)/Pods-AZPass (ad free).debug.xcconfig"; sourceTree = "<group>"; };
+		244ED1E8112E194E698C753B /* Pods-AZPass - Ad Free.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZPass - Ad Free.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZPass - Ad Free/Pods-AZPass - Ad Free.debug.xcconfig"; sourceTree = "<group>"; };
 		26A5F3B722F0C5C8002038DF /* RootContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContainerViewController.swift; sourceTree = "<group>"; };
 		26A5F3B922F3736E002038DF /* LogDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDetailViewController.swift; sourceTree = "<group>"; };
 		26A5F3BA22F39B4E002038DF /* CircularProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
 		26A5F3BC22F3B39F002038DF /* Root.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Root.storyboard; sourceTree = "<group>"; };
 		26E1DCDA21B9D4F200F8C843 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Configuration/Constants.swift; sourceTree = "<group>"; };
-		26E1DCE121B9F3F200F8C843 /* AdHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdHelper.swift; path = "super-gluu/Helpers/AdHelper.swift"; sourceTree = SOURCE_ROOT; };
-		26E1DCE221B9F3F200F8C843 /* AuthHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthHelper.swift; path = "super-gluu/Helpers/AuthHelper.swift"; sourceTree = SOURCE_ROOT; };
-		26E1DCE321B9F3F200F8C843 /* ConnectionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionCheck.swift; path = "super-gluu/Helpers/ConnectionCheck.swift"; sourceTree = SOURCE_ROOT; };
-		26E1DCE421B9F3F200F8C843 /* GluuUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GluuUserDefaults.swift; path = "super-gluu/Helpers/GluuUserDefaults.swift"; sourceTree = SOURCE_ROOT; };
-		26E1DCE521B9F3F300F8C843 /* PushNotificationsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushNotificationsHelper.swift; path = "super-gluu/Helpers/PushNotificationsHelper.swift"; sourceTree = SOURCE_ROOT; };
-		26E1DCE621B9F3F400F8C843 /* PurchaseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PurchaseHandler.swift; path = "super-gluu/Helpers/PurchaseHandler.swift"; sourceTree = SOURCE_ROOT; };
-		26E1DCED21B9F40700F8C843 /* TouchIDAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouchIDAuth.swift; path = "super-gluu/Helpers/TouchIDAuth.swift"; sourceTree = SOURCE_ROOT; };
+		26E1DCE121B9F3F200F8C843 /* AdHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdHelper.swift; path = "AZPass/Helpers/AdHelper.swift"; sourceTree = SOURCE_ROOT; };
+		26E1DCE221B9F3F200F8C843 /* AuthHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthHelper.swift; path = "AZPass/Helpers/AuthHelper.swift"; sourceTree = SOURCE_ROOT; };
+		26E1DCE321B9F3F200F8C843 /* ConnectionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionCheck.swift; path = "AZPass/Helpers/ConnectionCheck.swift"; sourceTree = SOURCE_ROOT; };
+		26E1DCE421B9F3F200F8C843 /* GluuUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GluuUserDefaults.swift; path = "AZPass/Helpers/GluuUserDefaults.swift"; sourceTree = SOURCE_ROOT; };
+		26E1DCE521B9F3F300F8C843 /* PushNotificationsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushNotificationsHelper.swift; path = "AZPass/Helpers/PushNotificationsHelper.swift"; sourceTree = SOURCE_ROOT; };
+		26E1DCE621B9F3F400F8C843 /* PurchaseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PurchaseHandler.swift; path = "AZPass/Helpers/PurchaseHandler.swift"; sourceTree = SOURCE_ROOT; };
+		26E1DCED21B9F40700F8C843 /* TouchIDAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouchIDAuth.swift; path = "AZPass/Helpers/TouchIDAuth.swift"; sourceTree = SOURCE_ROOT; };
 		26E32A2624B977DE004B4F06 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		26F43EF822DE406B003168AC /* LocalizedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedButton.swift; sourceTree = "<group>"; };
 		26F43EFA22DE4355003168AC /* LocalizedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedLabel.swift; sourceTree = "<group>"; };
@@ -144,23 +143,25 @@
 		26F43F0522DE844B003168AC /* bn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bn; path = bn.lproj/Localizable.strings; sourceTree = "<group>"; };
 		26F43F0622DE8FB9003168AC /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		26F43F0722DE90AA003168AC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2CEA4D8BAC9418F3113FC0AD /* Pods-AZPass.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZPass.testing.xcconfig"; path = "Pods/Target Support Files/Pods-AZPass/Pods-AZPass.testing.xcconfig"; sourceTree = "<group>"; };
 		3042379824CAF1FA009CCD9C /* UIViewConroller+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewConroller+Alert.swift"; sourceTree = "<group>"; };
 		3042379A24CAF427009CCD9C /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
-		4516151003C18420B94BE1ED /* Pods-Super Gluu - Ad Free.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Super Gluu - Ad Free.release.xcconfig"; path = "Pods/Target Support Files/Pods-Super Gluu - Ad Free/Pods-Super Gluu - Ad Free.release.xcconfig"; sourceTree = "<group>"; };
-		475C93050CA6D13747A471A2 /* Pods_Super_Gluu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Super_Gluu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EB98658935DC37AA97BA494 /* Pods-Super Gluu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Super Gluu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Super Gluu/Pods-Super Gluu.debug.xcconfig"; sourceTree = "<group>"; };
-		A2C1F7760B8ADC2A6085B78A /* Pods-Super Gluu (ad free).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Super Gluu (ad free).release.xcconfig"; path = "Pods/Target Support Files/Pods-Super Gluu (ad free)/Pods-Super Gluu (ad free).release.xcconfig"; sourceTree = "<group>"; };
-		B84F8928A16117787C96522F /* Pods-Super Gluu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Super Gluu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Super Gluu/Pods-Super Gluu.release.xcconfig"; sourceTree = "<group>"; };
+		4516151003C18420B94BE1ED /* Pods-AZPass - Ad Free.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZPass - Ad Free.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZPass - Ad Free/Pods-AZPass - Ad Free.release.xcconfig"; sourceTree = "<group>"; };
+		790A6FAD1F5C9DEA2727CC60 /* Pods_AZPass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZPass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB98658935DC37AA97BA494 /* Pods-AZPass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZPass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZPass/Pods-AZPass.debug.xcconfig"; sourceTree = "<group>"; };
+		A2C1F7760B8ADC2A6085B78A /* Pods-AZPass (ad free).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZPass (ad free).release.xcconfig"; path = "Pods/Target Support Files/Pods-AZPass (ad free)/Pods-AZPass (ad free).release.xcconfig"; sourceTree = "<group>"; };
+		AD717ADDC45B7A48BCB64334 /* Pods-AZPass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZPass.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZPass/Pods-AZPass.release.xcconfig"; sourceTree = "<group>"; };
+		B84F8928A16117787C96522F /* Pods-AZPass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZPass.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZPass/Pods-AZPass.release.xcconfig"; sourceTree = "<group>"; };
 		BB13D8111EE8413A00F3C41F /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Extensions/String+Extension.swift"; sourceTree = "<group>"; };
-		BB37DE511C7E08320016D422 /* Super Gluu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Gluu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB37DE511C7E08320016D422 /* AZPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB37DE551C7E08320016D422 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB37DE631C7E08320016D422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB37DE681C7E08320016D422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB37DE6D1C7E08320016D422 /* Super Gluu.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Super Gluu.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB37DE711C7E08320016D422 /* super_gluuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = super_gluuTests.m; sourceTree = "<group>"; };
+		BB37DE6D1C7E08320016D422 /* AZPass.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZPass.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB37DE711C7E08320016D422 /* AZPassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZPassTests.m; sourceTree = "<group>"; };
 		BB37DE731C7E08320016D422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB37DE781C7E08320016D422 /* Super Gluu.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Super Gluu.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB37DE7C1C7E08320016D422 /* super_gluuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = super_gluuUITests.m; sourceTree = "<group>"; };
+		BB37DE781C7E08320016D422 /* AZPass.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZPass.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB37DE7C1C7E08320016D422 /* AZPassUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZPassUITests.m; sourceTree = "<group>"; };
 		BB37DE7E1C7E08320016D422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB37DEDC1C7E0B8E0016D422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BB37DEDE1C7E0B8E0016D422 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -193,7 +194,7 @@
 		BBDE9B921DA788C1003B6673 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		BBE787261C99954600E9E0D7 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
 		BBE83B9D1E69D1DD0099F83A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
-		BBEC91F21E28CE25000D522F /* Super Gluu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Super Gluu.entitlements"; sourceTree = "<group>"; };
+		BBEC91F21E28CE25000D522F /* AZPass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AZPass.entitlements; sourceTree = "<group>"; };
 		BBEC91FF1E293179000D522F /* www.gluu.org.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = www.gluu.org.cer; sourceTree = "<group>"; };
 		BBFCB3091C98164F00F66417 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		C828ACDB21895CDE006EEF1D /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
@@ -202,7 +203,7 @@
 		C83D2B041FE2F18B00F9455E /* SecurityPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityPromptViewController.swift; sourceTree = "<group>"; };
 		C84157051FD9F695008BCF0B /* TouchIdSettingsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TouchIdSettingsDetailViewController.swift; path = Settings/TouchIdSettingsDetailViewController.swift; sourceTree = "<group>"; };
 		C84157081FDA0226008BCF0B /* SingleCellSettingsDetailViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; name = SingleCellSettingsDetailViewController.swift; path = Settings/SingleCellSettingsDetailViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
-		C8419626201A4F05005A4ACC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "super-gluu/Storyboards/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		C8419626201A4F05005A4ACC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "AZPass/Storyboards/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
 		C8494D0A1FD5E67600CD5FA8 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsTableViewCell.swift; path = ../../Views/TableViewCells/SettingsTableViewCell.swift; sourceTree = "<group>"; };
 		C8494D0C1FD5FCB800CD5FA8 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Font+Extension.swift"; path = "Extensions/Font+Extension.swift"; sourceTree = "<group>"; };
 		C8643FBD217008AA000D771A /* NSDate+NVTimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+NVTimeAgo.swift"; sourceTree = "<group>"; };
@@ -229,7 +230,8 @@
 		C8B402B51FE9F28C00202A4B /* LaunchSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSetupViewController.swift; sourceTree = "<group>"; };
 		C8F0E2DB1FD21C3800FF9342 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Color+Extension.swift"; path = "Extensions/Color+Extension.swift"; sourceTree = "<group>"; };
 		C8F0E2E11FD227CE00FF9342 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Settings/SettingsViewController.swift; sourceTree = "<group>"; };
-		F9F48E163E0B27CBECE9164F /* Pods_Super_Gluu___Ad_Free.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Super_Gluu___Ad_Free.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E643B3907D80811EDF8215F2 /* Pods-AZPass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZPass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZPass/Pods-AZPass.debug.xcconfig"; sourceTree = "<group>"; };
+		F9F48E163E0B27CBECE9164F /* Pods_AZPass___Ad_Free.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_AZPass___Ad_Free.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,8 +257,7 @@
 				BBDE9B801DA78835003B6673 /* AdSupport.framework in Frameworks */,
 				BB9B65A11CB7C5A300784AEF /* QuartzCore.framework in Frameworks */,
 				BB37DF421C7E0CBC0016D422 /* CoreData.framework in Frameworks */,
-				6A858E7909FD7D0E999EE1BC /* (null) in Frameworks */,
-				B15338FF2BF5A9564E88CA07 /* Pods_Super_Gluu.framework in Frameworks */,
+				FFA10FA593271404A0E363F3 /* Pods_AZPass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,8 +301,8 @@
 				BBFCB3091C98164F00F66417 /* CoreTelephony.framework */,
 				BBB7C0F71C88933100833B12 /* CoreLocation.framework */,
 				BB37DF411C7E0CBC0016D422 /* CoreData.framework */,
-				F9F48E163E0B27CBECE9164F /* Pods_Super_Gluu___Ad_Free.framework */,
-				475C93050CA6D13747A471A2 /* Pods_Super_Gluu.framework */,
+				F9F48E163E0B27CBECE9164F /* Pods_AZPass___Ad_Free.framework */,
+				790A6FAD1F5C9DEA2727CC60 /* Pods_AZPass.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -309,14 +310,17 @@
 		AA72D7AD8C815449C5038A71 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9EB98658935DC37AA97BA494 /* Pods-Super Gluu.debug.xcconfig */,
-				B84F8928A16117787C96522F /* Pods-Super Gluu.release.xcconfig */,
-				21C62C7E2E6093747FE1D418 /* Pods-Super Gluu (ad free).debug.xcconfig */,
-				A2C1F7760B8ADC2A6085B78A /* Pods-Super Gluu (ad free).release.xcconfig */,
-				244ED1E8112E194E698C753B /* Pods-Super Gluu - Ad Free.debug.xcconfig */,
-				4516151003C18420B94BE1ED /* Pods-Super Gluu - Ad Free.release.xcconfig */,
-				00A8A121C9E5138FA061E2EE /* Pods-Super Gluu.testing.xcconfig */,
-				0B55BCA65943206E2613A68D /* Pods-Super Gluu - Ad Free.testing.xcconfig */,
+				9EB98658935DC37AA97BA494 /* Pods-AZPass.debug.xcconfig */,
+				B84F8928A16117787C96522F /* Pods-AZPass.release.xcconfig */,
+				21C62C7E2E6093747FE1D418 /* Pods-AZPass (ad free).debug.xcconfig */,
+				A2C1F7760B8ADC2A6085B78A /* Pods-AZPass (ad free).release.xcconfig */,
+				244ED1E8112E194E698C753B /* Pods-AZPass - Ad Free.debug.xcconfig */,
+				4516151003C18420B94BE1ED /* Pods-AZPass - Ad Free.release.xcconfig */,
+				00A8A121C9E5138FA061E2EE /* Pods-AZPass.testing.xcconfig */,
+				0B55BCA65943206E2613A68D /* Pods-AZPass - Ad Free.testing.xcconfig */,
+				E643B3907D80811EDF8215F2 /* Pods-AZPass.debug.xcconfig */,
+				AD717ADDC45B7A48BCB64334 /* Pods-AZPass.release.xcconfig */,
+				2CEA4D8BAC9418F3113FC0AD /* Pods-AZPass.testing.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -348,10 +352,10 @@
 			isa = PBXGroup;
 			children = (
 				C828ACDB21895CDE006EEF1D /* AppInfo.swift */,
-				BBEC91F21E28CE25000D522F /* Super Gluu.entitlements */,
-				BB37DE531C7E08320016D422 /* super-gluu */,
-				BB37DE701C7E08320016D422 /* super-gluuTests */,
-				BB37DE7B1C7E08320016D422 /* super-gluuUITests */,
+				BBEC91F21E28CE25000D522F /* AZPass.entitlements */,
+				BB37DE531C7E08320016D422 /* AZPass */,
+				BB37DE701C7E08320016D422 /* AZPassTests */,
+				BB37DE7B1C7E08320016D422 /* AZPassUITests */,
 				BB37DE521C7E08320016D422 /* Products */,
 				3F430CE55ADBDA89388FF131 /* Frameworks */,
 				AA72D7AD8C815449C5038A71 /* Pods */,
@@ -361,14 +365,14 @@
 		BB37DE521C7E08320016D422 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB37DE511C7E08320016D422 /* Super Gluu.app */,
-				BB37DE6D1C7E08320016D422 /* Super Gluu.xctest */,
-				BB37DE781C7E08320016D422 /* Super Gluu.xctest */,
+				BB37DE511C7E08320016D422 /* AZPass.app */,
+				BB37DE6D1C7E08320016D422 /* AZPass.xctest */,
+				BB37DE781C7E08320016D422 /* AZPass.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB37DE531C7E08320016D422 /* super-gluu */ = {
+		BB37DE531C7E08320016D422 /* AZPass */ = {
 			isa = PBXGroup;
 			children = (
 				C872CB61215B9EA900735A3F /* AppDelegate.swift */,
@@ -382,7 +386,7 @@
 				C89E1EF9215D88EE00355756 /* Storyboards */,
 				BB37DE541C7E08320016D422 /* Supporting Files */,
 			);
-			path = "super-gluu";
+			path = AZPass;
 			sourceTree = "<group>";
 		};
 		BB37DE541C7E08320016D422 /* Supporting Files */ = {
@@ -398,22 +402,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BB37DE701C7E08320016D422 /* super-gluuTests */ = {
+		BB37DE701C7E08320016D422 /* AZPassTests */ = {
 			isa = PBXGroup;
 			children = (
-				BB37DE711C7E08320016D422 /* super_gluuTests.m */,
+				BB37DE711C7E08320016D422 /* AZPassTests.m */,
 				BB37DE731C7E08320016D422 /* Info.plist */,
 			);
-			path = "super-gluuTests";
+			path = "AZPassTests";
 			sourceTree = "<group>";
 		};
-		BB37DE7B1C7E08320016D422 /* super-gluuUITests */ = {
+		BB37DE7B1C7E08320016D422 /* AZPassUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BB37DE7C1C7E08320016D422 /* super_gluuUITests.m */,
+				BB37DE7C1C7E08320016D422 /* AZPassUITests.m */,
 				BB37DE7E1C7E08320016D422 /* Info.plist */,
 			);
-			path = "super-gluuUITests";
+			path = "AZPassUITests";
 			sourceTree = "<group>";
 		};
 		BB37DEDA1C7E0B8E0016D422 /* Resources */ = {
@@ -567,9 +571,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB37DE501C7E08320016D422 /* Super Gluu */ = {
+		BB37DE501C7E08320016D422 /* AZPass */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB37DE811C7E08320016D422 /* Build configuration list for PBXNativeTarget "Super Gluu" */;
+			buildConfigurationList = BB37DE811C7E08320016D422 /* Build configuration list for PBXNativeTarget "AZPass" */;
 			buildPhases = (
 				62C9AC37CB2BC89A10FB685F /* [CP] Check Pods Manifest.lock */,
 				BB37DE4D1C7E08320016D422 /* Sources */,
@@ -582,14 +586,14 @@
 			);
 			dependencies = (
 			);
-			name = "Super Gluu";
-			productName = "super-gluu";
-			productReference = BB37DE511C7E08320016D422 /* Super Gluu.app */;
+			name = AZPass;
+			productName = "AZPass";
+			productReference = BB37DE511C7E08320016D422 /* AZPass.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BB37DE6C1C7E08320016D422 /* Super GluuTests */ = {
+		BB37DE6C1C7E08320016D422 /* AZPassTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB37DE841C7E08320016D422 /* Build configuration list for PBXNativeTarget "Super GluuTests" */;
+			buildConfigurationList = BB37DE841C7E08320016D422 /* Build configuration list for PBXNativeTarget "AZPassTests" */;
 			buildPhases = (
 				BB37DE691C7E08320016D422 /* Sources */,
 				BB37DE6A1C7E08320016D422 /* Frameworks */,
@@ -600,14 +604,14 @@
 			dependencies = (
 				BB37DE6F1C7E08320016D422 /* PBXTargetDependency */,
 			);
-			name = "Super GluuTests";
-			productName = "super-gluuTests";
-			productReference = BB37DE6D1C7E08320016D422 /* Super Gluu.xctest */;
+			name = AZPassTests;
+			productName = "AZPassTests";
+			productReference = BB37DE6D1C7E08320016D422 /* AZPass.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BB37DE771C7E08320016D422 /* Super GluuUITests */ = {
+		BB37DE771C7E08320016D422 /* AZPassUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB37DE871C7E08320016D422 /* Build configuration list for PBXNativeTarget "Super GluuUITests" */;
+			buildConfigurationList = BB37DE871C7E08320016D422 /* Build configuration list for PBXNativeTarget "AZPassUITests" */;
 			buildPhases = (
 				BB37DE741C7E08320016D422 /* Sources */,
 				BB37DE751C7E08320016D422 /* Frameworks */,
@@ -618,9 +622,9 @@
 			dependencies = (
 				BB37DE7A1C7E08320016D422 /* PBXTargetDependency */,
 			);
-			name = "Super GluuUITests";
-			productName = "super-gluuUITests";
-			productReference = BB37DE781C7E08320016D422 /* Super Gluu.xctest */;
+			name = AZPassUITests;
+			productName = "AZPassUITests";
+			productReference = BB37DE781C7E08320016D422 /* AZPass.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -634,7 +638,7 @@
 				TargetAttributes = {
 					BB37DE501C7E08320016D422 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = FLRS8NH8Y9;
+						DevelopmentTeam = QSH6DW32Z8;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -665,7 +669,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BB37DE4C1C7E08320016D422 /* Build configuration list for PBXProject "Super Gluu" */;
+			buildConfigurationList = BB37DE4C1C7E08320016D422 /* Build configuration list for PBXProject "AZPass" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -691,9 +695,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB37DE501C7E08320016D422 /* Super Gluu */,
-				BB37DE6C1C7E08320016D422 /* Super GluuTests */,
-				BB37DE771C7E08320016D422 /* Super GluuUITests */,
+				BB37DE501C7E08320016D422 /* AZPass */,
+				BB37DE6C1C7E08320016D422 /* AZPassTests */,
+				BB37DE771C7E08320016D422 /* AZPassUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -742,7 +746,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Super Gluu/Pods-Super Gluu-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AZPass/Pods-AZPass-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
@@ -773,7 +777,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Super Gluu/Pods-Super Gluu-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AZPass/Pods-AZPass-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		62C9AC37CB2BC89A10FB685F /* [CP] Check Pods Manifest.lock */ = {
@@ -787,7 +791,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Super Gluu-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AZPass-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -873,7 +877,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB37DE721C7E08320016D422 /* super_gluuTests.m in Sources */,
+				BB37DE721C7E08320016D422 /* AZPassTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -881,7 +885,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB37DE7D1C7E08320016D422 /* super_gluuUITests.m in Sources */,
+				BB37DE7D1C7E08320016D422 /* AZPassUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -890,12 +894,12 @@
 /* Begin PBXTargetDependency section */
 		BB37DE6F1C7E08320016D422 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BB37DE501C7E08320016D422 /* Super Gluu */;
+			target = BB37DE501C7E08320016D422 /* AZPass */;
 			targetProxy = BB37DE6E1C7E08320016D422 /* PBXContainerItemProxy */;
 		};
 		BB37DE7A1C7E08320016D422 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BB37DE501C7E08320016D422 /* Super Gluu */;
+			target = BB37DE501C7E08320016D422 /* AZPass */;
 			targetProxy = BB37DE791C7E08320016D422 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -957,7 +961,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -967,34 +971,35 @@
 		};
 		26F43EF422DD3A02003168AC /* Testing */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00A8A121C9E5138FA061E2EE /* Pods-Super Gluu.testing.xcconfig */;
+			baseConfigurationReference = 2CEA4D8BAC9418F3113FC0AD /* Pods-AZPass.testing.xcconfig */;
 			buildSettings = {
 				APP_DISPLAY_NAME = "SuprGluu Beta";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_beta;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Super Gluu.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_ENTITLEMENTS = AZPass.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 10;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = FLRS8NH8Y9;
+				DEVELOPMENT_TEAM = QSH6DW32Z8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "super-gluu/PrefixHeader.pch";
-				INFOPLIST_FILE = "super-gluu/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				GCC_PREFIX_HEADER = AZPass/PrefixHeader.pch;
+				INFOPLIST_FILE = AZPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MARKETING_VERSION = 34.0.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ios.gluu.beta;
-				PRODUCT_NAME = "Super Gluu";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.azpass.beta;
+				PRODUCT_NAME = AZPass;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "super-gluu/Super Gluu-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AZPass/AZPass-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1005,11 +1010,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "super-gluuTests/Info.plist";
+				INFOPLIST_FILE = "AZPassTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gluu.ios.super-gluuTests";
-				PRODUCT_NAME = "Super Gluu";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super Gluu.app/Super Gluu";
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.azpass.AZPassTests";
+				PRODUCT_NAME = AZPass;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZPass.app/AZPass";
 			};
 			name = Testing;
 		};
@@ -1017,11 +1022,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "super-gluuUITests/Info.plist";
+				INFOPLIST_FILE = "AZPassUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gluu.ios.super-gluuUITests";
-				PRODUCT_NAME = "Super Gluu";
-				TEST_TARGET_NAME = "super-gluu";
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.azpass.AZPassUITests";
+				PRODUCT_NAME = AZPass;
+				TEST_TARGET_NAME = "AZPass";
 				USES_XCTRUNNER = YES;
 			};
 			name = Testing;
@@ -1063,7 +1068,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1103,7 +1108,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1113,35 +1118,35 @@
 		};
 		BB37DE821C7E08320016D422 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EB98658935DC37AA97BA494 /* Pods-Super Gluu.debug.xcconfig */;
+			baseConfigurationReference = E643B3907D80811EDF8215F2 /* Pods-AZPass.debug.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "Super Gluu";
+				APP_DISPLAY_NAME = AZPass;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Super Gluu.entitlements";
+				CODE_SIGN_ENTITLEMENTS = AZPass.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = FLRS8NH8Y9;
+				DEVELOPMENT_TEAM = QSH6DW32Z8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "super-gluu/PrefixHeader.pch";
-				INFOPLIST_FILE = "super-gluu/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				GCC_PREFIX_HEADER = AZPass/PrefixHeader.pch;
+				INFOPLIST_FILE = AZPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MARKETING_VERSION = 34.0.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ios.gluu;
-				PRODUCT_NAME = "Super Gluu";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.azpass;
+				PRODUCT_NAME = AZPass;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "super-gluu/Super Gluu-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AZPass/AZPass-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1150,35 +1155,35 @@
 		};
 		BB37DE831C7E08320016D422 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B84F8928A16117787C96522F /* Pods-Super Gluu.release.xcconfig */;
+			baseConfigurationReference = AD717ADDC45B7A48BCB64334 /* Pods-AZPass.release.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "Super Gluu";
+				APP_DISPLAY_NAME = AZPass;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Super Gluu.entitlements";
+				CODE_SIGN_ENTITLEMENTS = AZPass.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = FLRS8NH8Y9;
+				DEVELOPMENT_TEAM = QSH6DW32Z8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "super-gluu/PrefixHeader.pch";
-				INFOPLIST_FILE = "super-gluu/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				GCC_PREFIX_HEADER = AZPass/PrefixHeader.pch;
+				INFOPLIST_FILE = AZPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MARKETING_VERSION = 34.0.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ios.gluu;
-				PRODUCT_NAME = "Super Gluu";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.azpass;
+				PRODUCT_NAME = AZPass;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "super-gluu/Super Gluu-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AZPass/AZPass-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1189,11 +1194,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "super-gluuTests/Info.plist";
+				INFOPLIST_FILE = "AZPassTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gluu.ios.super-gluuTests";
-				PRODUCT_NAME = "Super Gluu";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super Gluu.app/Super Gluu";
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.azpass.AZPassTests";
+				PRODUCT_NAME = AZPass;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZPass.app/AZPass";
 			};
 			name = Debug;
 		};
@@ -1202,11 +1207,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "super-gluuTests/Info.plist";
+				INFOPLIST_FILE = "AZPassTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gluu.ios.super-gluuTests";
-				PRODUCT_NAME = "Super Gluu";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super Gluu.app/Super Gluu";
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.azpass.AZPassTests";
+				PRODUCT_NAME = AZPass;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZPass.app/AZPass";
 			};
 			name = Release;
 		};
@@ -1214,11 +1219,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "super-gluuUITests/Info.plist";
+				INFOPLIST_FILE = "AZPassUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gluu.ios.super-gluuUITests";
-				PRODUCT_NAME = "Super Gluu";
-				TEST_TARGET_NAME = "super-gluu";
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.azpass.AZPassUITests";
+				PRODUCT_NAME = AZPass;
+				TEST_TARGET_NAME = "AZPass";
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -1227,11 +1232,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "super-gluuUITests/Info.plist";
+				INFOPLIST_FILE = "AZPassUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gluu.ios.super-gluuUITests";
-				PRODUCT_NAME = "Super Gluu";
-				TEST_TARGET_NAME = "super-gluu";
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.azpass.AZPassUITests";
+				PRODUCT_NAME = AZPass;
+				TEST_TARGET_NAME = "AZPass";
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -1239,7 +1244,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB37DE4C1C7E08320016D422 /* Build configuration list for PBXProject "Super Gluu" */ = {
+		BB37DE4C1C7E08320016D422 /* Build configuration list for PBXProject "AZPass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB37DE7F1C7E08320016D422 /* Debug */,
@@ -1249,7 +1254,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB37DE811C7E08320016D422 /* Build configuration list for PBXNativeTarget "Super Gluu" */ = {
+		BB37DE811C7E08320016D422 /* Build configuration list for PBXNativeTarget "AZPass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB37DE821C7E08320016D422 /* Debug */,
@@ -1259,7 +1264,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB37DE841C7E08320016D422 /* Build configuration list for PBXNativeTarget "Super GluuTests" */ = {
+		BB37DE841C7E08320016D422 /* Build configuration list for PBXNativeTarget "AZPassTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB37DE851C7E08320016D422 /* Debug */,
@@ -1269,7 +1274,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB37DE871C7E08320016D422 /* Build configuration list for PBXNativeTarget "Super GluuUITests" */ = {
+		BB37DE871C7E08320016D422 /* Build configuration list for PBXNativeTarget "AZPassUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB37DE881C7E08320016D422 /* Debug */,

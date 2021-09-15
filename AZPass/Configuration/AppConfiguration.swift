@@ -10,7 +10,7 @@ import UIKit
 
 
 struct AppConfiguration {
-    static let systemTitle = "Super Gluu"
+    static let systemTitle = "AZPass"
     static let systemAlertIcon = UIImage(named: "icon_gluu_logo_nav") ?? UIImage()
     static let systemLogIcon = UIImage(named: "icon_gluu_logo_log_details") ?? UIImage()
     static let systemLogRedIcon = UIImage(named: "icon_gluu_logo_log_details_failed")  ?? UIImage()
