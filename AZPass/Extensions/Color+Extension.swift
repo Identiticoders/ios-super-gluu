@@ -23,7 +23,8 @@ extension UIColor {
 
     struct Gluu {
         
-        static let green           = UIColor(red: 0, green: 161, blue: 97)
+        static let red             = UIColor(red: 219, green: 27, blue: 30) // Azlabs Theme Color
+        static let green           = UIColor(red: 0, green: 161, blue: 97) // Original AZPass Theme
         static let darkGreyText    = UIColor(red: 100, green: 100, blue: 100)
         static let lightGreyText   = UIColor(red: 180, green: 180, blue: 180)
         static let separator       = UIColor(red: 210, green: 210, blue: 210)

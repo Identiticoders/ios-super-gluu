@@ -14,5 +14,5 @@ struct AppConfiguration {
     static let systemAlertIcon = UIImage(named: "icon_gluu_logo_nav") ?? UIImage()
     static let systemLogIcon = UIImage(named: "icon_gluu_logo_log_details") ?? UIImage()
     static let systemLogRedIcon = UIImage(named: "icon_gluu_logo_log_details_failed")  ?? UIImage()
-    static let systemColor = UIColor.Gluu.green
+    static let systemColor = UIColor.Gluu.red
 }

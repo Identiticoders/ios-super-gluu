@@ -100,14 +100,14 @@
 			containerPortal = BB37DE491C7E08320016D422 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BB37DE501C7E08320016D422;
-			remoteInfo = "AZPass";
+			remoteInfo = AZPass;
 		};
 		BB37DE791C7E08320016D422 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BB37DE491C7E08320016D422 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BB37DE501C7E08320016D422;
-			remoteInfo = "AZPass";
+			remoteInfo = AZPass;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -121,13 +121,13 @@
 		26A5F3BA22F39B4E002038DF /* CircularProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
 		26A5F3BC22F3B39F002038DF /* Root.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Root.storyboard; sourceTree = "<group>"; };
 		26E1DCDA21B9D4F200F8C843 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Configuration/Constants.swift; sourceTree = "<group>"; };
-		26E1DCE121B9F3F200F8C843 /* AdHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdHelper.swift; path = "AZPass/Helpers/AdHelper.swift"; sourceTree = SOURCE_ROOT; };
-		26E1DCE221B9F3F200F8C843 /* AuthHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthHelper.swift; path = "AZPass/Helpers/AuthHelper.swift"; sourceTree = SOURCE_ROOT; };
-		26E1DCE321B9F3F200F8C843 /* ConnectionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionCheck.swift; path = "AZPass/Helpers/ConnectionCheck.swift"; sourceTree = SOURCE_ROOT; };
-		26E1DCE421B9F3F200F8C843 /* GluuUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GluuUserDefaults.swift; path = "AZPass/Helpers/GluuUserDefaults.swift"; sourceTree = SOURCE_ROOT; };
-		26E1DCE521B9F3F300F8C843 /* PushNotificationsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushNotificationsHelper.swift; path = "AZPass/Helpers/PushNotificationsHelper.swift"; sourceTree = SOURCE_ROOT; };
-		26E1DCE621B9F3F400F8C843 /* PurchaseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PurchaseHandler.swift; path = "AZPass/Helpers/PurchaseHandler.swift"; sourceTree = SOURCE_ROOT; };
-		26E1DCED21B9F40700F8C843 /* TouchIDAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouchIDAuth.swift; path = "AZPass/Helpers/TouchIDAuth.swift"; sourceTree = SOURCE_ROOT; };
+		26E1DCE121B9F3F200F8C843 /* AdHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdHelper.swift; path = AZPass/Helpers/AdHelper.swift; sourceTree = SOURCE_ROOT; };
+		26E1DCE221B9F3F200F8C843 /* AuthHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthHelper.swift; path = AZPass/Helpers/AuthHelper.swift; sourceTree = SOURCE_ROOT; };
+		26E1DCE321B9F3F200F8C843 /* ConnectionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionCheck.swift; path = AZPass/Helpers/ConnectionCheck.swift; sourceTree = SOURCE_ROOT; };
+		26E1DCE421B9F3F200F8C843 /* GluuUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GluuUserDefaults.swift; path = AZPass/Helpers/GluuUserDefaults.swift; sourceTree = SOURCE_ROOT; };
+		26E1DCE521B9F3F300F8C843 /* PushNotificationsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushNotificationsHelper.swift; path = AZPass/Helpers/PushNotificationsHelper.swift; sourceTree = SOURCE_ROOT; };
+		26E1DCE621B9F3F400F8C843 /* PurchaseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PurchaseHandler.swift; path = AZPass/Helpers/PurchaseHandler.swift; sourceTree = SOURCE_ROOT; };
+		26E1DCED21B9F40700F8C843 /* TouchIDAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouchIDAuth.swift; path = AZPass/Helpers/TouchIDAuth.swift; sourceTree = SOURCE_ROOT; };
 		26E32A2624B977DE004B4F06 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		26F43EF822DE406B003168AC /* LocalizedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedButton.swift; sourceTree = "<group>"; };
 		26F43EFA22DE4355003168AC /* LocalizedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedLabel.swift; sourceTree = "<group>"; };
@@ -203,7 +203,7 @@
 		C83D2B041FE2F18B00F9455E /* SecurityPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityPromptViewController.swift; sourceTree = "<group>"; };
 		C84157051FD9F695008BCF0B /* TouchIdSettingsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TouchIdSettingsDetailViewController.swift; path = Settings/TouchIdSettingsDetailViewController.swift; sourceTree = "<group>"; };
 		C84157081FDA0226008BCF0B /* SingleCellSettingsDetailViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; name = SingleCellSettingsDetailViewController.swift; path = Settings/SingleCellSettingsDetailViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
-		C8419626201A4F05005A4ACC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "AZPass/Storyboards/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		C8419626201A4F05005A4ACC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AZPass/Storyboards/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		C8494D0A1FD5E67600CD5FA8 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsTableViewCell.swift; path = ../../Views/TableViewCells/SettingsTableViewCell.swift; sourceTree = "<group>"; };
 		C8494D0C1FD5FCB800CD5FA8 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Font+Extension.swift"; path = "Extensions/Font+Extension.swift"; sourceTree = "<group>"; };
 		C8643FBD217008AA000D771A /* NSDate+NVTimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+NVTimeAgo.swift"; sourceTree = "<group>"; };
@@ -408,7 +408,7 @@
 				BB37DE711C7E08320016D422 /* AZPassTests.m */,
 				BB37DE731C7E08320016D422 /* Info.plist */,
 			);
-			path = "AZPassTests";
+			path = AZPassTests;
 			sourceTree = "<group>";
 		};
 		BB37DE7B1C7E08320016D422 /* AZPassUITests */ = {
@@ -417,7 +417,7 @@
 				BB37DE7C1C7E08320016D422 /* AZPassUITests.m */,
 				BB37DE7E1C7E08320016D422 /* Info.plist */,
 			);
-			path = "AZPassUITests";
+			path = AZPassUITests;
 			sourceTree = "<group>";
 		};
 		BB37DEDA1C7E0B8E0016D422 /* Resources */ = {
@@ -587,7 +587,7 @@
 			dependencies = (
 			);
 			name = AZPass;
-			productName = "AZPass";
+			productName = AZPass;
 			productReference = BB37DE511C7E08320016D422 /* AZPass.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -605,7 +605,7 @@
 				BB37DE6F1C7E08320016D422 /* PBXTargetDependency */,
 			);
 			name = AZPassTests;
-			productName = "AZPassTests";
+			productName = AZPassTests;
 			productReference = BB37DE6D1C7E08320016D422 /* AZPass.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -623,7 +623,7 @@
 				BB37DE7A1C7E08320016D422 /* PBXTargetDependency */,
 			);
 			name = AZPassUITests;
-			productName = "AZPassUITests";
+			productName = AZPassUITests;
 			productReference = BB37DE781C7E08320016D422 /* AZPass.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -974,7 +974,7 @@
 			baseConfigurationReference = 2CEA4D8BAC9418F3113FC0AD /* Pods-AZPass.testing.xcconfig */;
 			buildSettings = {
 				APP_DISPLAY_NAME = "SuprGluu Beta";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_beta;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AZPass.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -1010,9 +1010,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "AZPassTests/Info.plist";
+				INFOPLIST_FILE = AZPassTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sg.azpass.AZPassTests";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.azpass.AZPassTests;
 				PRODUCT_NAME = AZPass;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZPass.app/AZPass";
 			};
@@ -1022,11 +1022,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "AZPassUITests/Info.plist";
+				INFOPLIST_FILE = AZPassUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sg.azpass.AZPassUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.azpass.AZPassUITests;
 				PRODUCT_NAME = AZPass;
-				TEST_TARGET_NAME = "AZPass";
+				TEST_TARGET_NAME = AZPass;
 				USES_XCTRUNNER = YES;
 			};
 			name = Testing;
@@ -1194,9 +1194,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "AZPassTests/Info.plist";
+				INFOPLIST_FILE = AZPassTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sg.azpass.AZPassTests";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.azpass.AZPassTests;
 				PRODUCT_NAME = AZPass;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZPass.app/AZPass";
 			};
@@ -1207,9 +1207,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "AZPassTests/Info.plist";
+				INFOPLIST_FILE = AZPassTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sg.azpass.AZPassTests";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.azpass.AZPassTests;
 				PRODUCT_NAME = AZPass;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZPass.app/AZPass";
 			};
@@ -1219,11 +1219,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "AZPassUITests/Info.plist";
+				INFOPLIST_FILE = AZPassUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sg.azpass.AZPassUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.azpass.AZPassUITests;
 				PRODUCT_NAME = AZPass;
-				TEST_TARGET_NAME = "AZPass";
+				TEST_TARGET_NAME = AZPass;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -1232,11 +1232,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "AZPassUITests/Info.plist";
+				INFOPLIST_FILE = AZPassUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sg.azpass.AZPassUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.azpass.AZPassUITests;
 				PRODUCT_NAME = AZPass;
-				TEST_TARGET_NAME = "AZPass";
+				TEST_TARGET_NAME = AZPass;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;

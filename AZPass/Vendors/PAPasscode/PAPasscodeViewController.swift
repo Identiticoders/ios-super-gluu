@@ -348,7 +348,7 @@ class PAPasscodeViewController: UIViewController, UITextFieldDelegate {
         failedAttemptsView.isHidden = false
 
         if failedAttempts < 3 {
-            failedAttemptsView.backgroundColor = UIColor(red: 0, green: 161 / 255, blue: 97 / 255, alpha: 1.0)
+            failedAttemptsView.backgroundColor = UIColor(red: 219, green: 27 / 255, blue: 30 / 255, alpha: 1.0)
         } else {
             failedAttemptsView.backgroundColor = UIColor.red
         }
