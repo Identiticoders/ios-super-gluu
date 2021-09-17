@@ -244,18 +244,38 @@ class HomeViewController: BaseViewController, ApproveDenyDelegate, QRCodeReaderV
     }
     
     func showQRReader() {
-        
-        if ConnectionCheck.isConnectedToNetwork(), QRCodeReader.isAvailable() {
-            
-            qrReaderVC.title = LocalString.Home_Scan.localized
-            qrReaderVC.delegate = self
-            
-            navigationController?.pushViewController(qrReaderVC, animated: true)
+        if ConnectionCheck.isConnectedToNetwork() {
+            if QRCodeReader.isAvailable() {
+                
+                qrReaderVC.title = LocalString.Home_Scan.localized
+                qrReaderVC.delegate = self
+                
+                navigationController?.pushViewController(qrReaderVC, animated: true)
+                scanButton.isEnabled = true
+            } else {
+                print("Camera not available")
+
+                // Scan Static QRCode Image
+//                if let features = detectQRCode(#imageLiteral(resourceName: "qrcode_static")), !features.isEmpty{
+//                    for case let row as CIQRCodeFeature in features {
+//                        print(row.messageString ?? "nope")
+//                        var push = PushNoti(pushData: nil)
+//                        push.userInfo = convertToDictionary(text: row.messageString!)
+//                        PushHelper.shared.lastPush = push
+//
+//                        handlePush()
+//                    }
+//                }
+
+                DispatchQueue.main.async { [self] in
+                    scanButton.isEnabled = true
+                    showAlertView(withTitle: "Camera not available", andMessage: "Camera is not supported on this device.")
+                }
+            }
         } else {
             showAlertView(withTitle: LocalString.Home_No_Internet.localized, andMessage: LocalString.Home_Check_Internet.localized)
+            scanButton.isEnabled = true
         }
-        
-        scanButton.isEnabled = true
     }
     
     // MARK: - QRCodeReaderViewController Delegate Methods
@@ -290,6 +310,35 @@ class HomeViewController: BaseViewController, ApproveDenyDelegate, QRCodeReaderV
 
         navigationController?.popViewController(animated: true)
     }
+
+    func convertToDictionary(text: String) -> [AnyHashable: Any]? {
+        if let data = text.data(using: .utf8) {
+            do {
+                return try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
+        return nil
+    }
+    
+    func detectQRCode(_ image: UIImage?) -> [CIFeature]? {
+        if let image = image, let ciImage = CIImage.init(image: image){
+            var options: [String: Any]
+            let context = CIContext()
+            options = [CIDetectorAccuracy: CIDetectorAccuracyHigh]
+            let qrDetector = CIDetector(ofType: CIDetectorTypeQRCode, context: context, options: options)
+            if ciImage.properties.keys.contains((kCGImagePropertyOrientation as String)){
+                options = [CIDetectorImageOrientation: ciImage.properties[(kCGImagePropertyOrientation as String)] ?? 1]
+            } else {
+                options = [CIDetectorImageOrientation: 1]
+            }
+            let features = qrDetector?.features(in: ciImage, options: options)
+            return features
+            
+        }
+        return nil
+    }
     
     // MARK: - Camera Permission Handling
     @IBAction func scanQRTapped() {
@@ -306,13 +355,10 @@ class HomeViewController: BaseViewController, ApproveDenyDelegate, QRCodeReaderV
             print("\("Camera access not determined. Ask for permission.")")
             
             AVCaptureDevice.requestAccess(for: AVMediaType.video, completionHandler: { granted in
-                
                 if granted {
-                    
                     print("Granted access to \(AVMediaType.video)")
                     self.showQRReader()
                 } else {
-                    
                     print("Not granted access to \(AVMediaType.video)")
                     self.cameraDenied()
                 }
